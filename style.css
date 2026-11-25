@@ -1,0 +1,32 @@
+body{
+    background:#eaf0f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.container{
+    background:white;
+    width:350px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 15px ;
+}
+h1{
+    color:rgb(134, 26, 26);
+    font-size:24px;
+}
+input{
+    padding:10px;
+    background:rgb(231, 227, 228);
+    border-radius:10px;
+}
+#bar{
+    height:10px;
+    width:0;
+    border-radius:10px;
+    transition:0.3s;
+}
+li{
+    margin:8px 0;
+}
